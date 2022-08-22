@@ -42,10 +42,10 @@ class Battle {
     this.element.classList.add("Battle");
     this.element.innerHTML = (`
     <div class="Battle_hero">
-      <img src="${'/game/img/characters/people/hero.png'}" alt="Hero" />
+      <img src="${'hero.png'}" alt="Hero" />
     </div>
     <div class="Battle_enemy">
-      <img src=${'/game/img/characters/people/npc3.png'} alt="Enemy" />
+      <img src=${'npc3.png'} alt="Enemy" />
     </div>
     `)
   }
