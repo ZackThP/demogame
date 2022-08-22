@@ -185,7 +185,7 @@ window.OverworldMaps = {
         talking: [
           {
             events: [
-              { type: "textMessage", text: "Bạn Làm Được Rồi!!", faceHero:"npcB" },
+              { type: "battle" },
             ]
           }
         ]
