@@ -66,7 +66,7 @@ class Overworld {
 
 
   init() {
-   this.startMap(window.OverworldMaps.Kitchen);
+   this.startMap(window.OverworldMaps.DemoRoom);
 
    this.bindActionInput();
    this.bindHeroPositionCheck();
@@ -78,9 +78,8 @@ class Overworld {
    this.startGameLoop();
  
    this.map.startCutscene([
-     { type: "battle" },
-    // { type: "changeMap", map: "DemoRoom"},
-    // { type: "textMessage", text: "message đầu tiên:))"},
+     { type: "changeMap", map: "Kitchen"},
+     { type: "textMessage", text: "Welcome To Pizza Lengend"},
    ])
  
   }
