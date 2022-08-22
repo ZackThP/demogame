@@ -78,7 +78,7 @@ class Overworld {
    this.startGameLoop();
  
    this.map.startCutscene([
-     { type: "changeMap", map: "Kitchen"},
+     { type: "changeMap", map: "DemoRoom"},
      { type: "textMessage", text: "Welcome To Pizza Lengend"},
    ])
  
